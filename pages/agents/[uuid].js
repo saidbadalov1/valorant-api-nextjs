@@ -28,7 +28,7 @@ export default function Uuid({ agent }) {
                 align-items: center;
             }
             .overlay{
-                padding: 30px;
+                padding: 100px;
             }
             p{
                 font-size: 1.4rem;
@@ -37,9 +37,9 @@ export default function Uuid({ agent }) {
             }
             img{
                 margin-top: 90px;
-                height: 600px;
-                width: 450px;
-                margin-left: -120px;
+                height: 550px;
+                width: 500px;
+                margin-left: px;
             }
             @media only screen and (max-width: 600px) {
                 .cont{
