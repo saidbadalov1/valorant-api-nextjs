@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useRouter } from "next/router";
 
 export default ({ agent }) => {
@@ -7,6 +8,9 @@ export default ({ agent }) => {
 
     return (
         <>
+        <Head>
+            <title>{agent.data.displayName}</title>
+        </Head>
             <div className="cont">
                 <div className="image">
                     <img src={agent.data.bustPortrait} alt={agent.data.displayName} />
