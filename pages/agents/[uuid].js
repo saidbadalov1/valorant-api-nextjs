@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 
-export default ({ agent }) => {
+export default function Uuid({ agent }) {
     console.log(agent.data)
     const router = useRouter()
     const { uuid } = router.query
